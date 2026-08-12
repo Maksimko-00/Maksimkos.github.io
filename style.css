@@ -12,6 +12,10 @@ header {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     margin-bottom: 30px;
+    <meta property="og:title" content="Максим | Разработчик">
+    <meta property="og:description" content="Делаю сайты, люблю C++ и GitHub">
+    <meta property="og:image" content="https://maksimko-00.github.io/Maksimkos.github.io/photo.jpg">
+
 }
 section {
     background: white;
