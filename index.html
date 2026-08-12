@@ -26,28 +26,32 @@
         <p>Программист-самоучка / школьник</p>
     </header>
 
-    <!-- БЛОК ПРОЕКТОВ -->
-    <section>
-        <h2>Мои проекты</h2>
-        <p>Здесь я выкладываю свои учебные и пет-проекты. Код готов показать по запросу.</p>
+<!-- БЛОК ПРОЕКТОВ -->
+<section>
+    <h2>Мои проекты</h2>
+    <p>Здесь я выкладываю свои учебные и пет-проекты. Код готов показать по запросу.</p>
+    
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
         
-        <!-- ГЛАВНОЕ ИСПРАВЛЕНИЕ: Добавлен этот div с flex -->
-        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-            
-            <!-- Карточка 1: Калькулятор -->
-            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; flex: 1; min-width: 250px;">
-                <h3>Калькулятор на C++</h3>
-                <p>Консольное приложение с обработкой ошибок ввода. Код пока не выложен в публичный доступ, но готов показать по запросу.</p>
-                <a href="https://t.me/pufferfush19" target="_blank" style="color: #007bff; text-decoration: underline;">Показать код в переписке →</a>
-            </div>
+        <!-- Карточка 1: Калькулятор -->
+        <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; flex: 1; min-width: 250px;">
+            <h3>Калькулятор на C++</h3>
+            <p>Консольное приложение с обработкой ошибок ввода.</p>
+            <!-- ВСТАВЬ СЮДА ССЫЛКУ НА СВОЙ GITHUB -->
+            <a href="https://github.com/Maksimko-00/calculator-cpp/" target="_blank" rel="noopener noreferrer" style="color: #2AABEE; text-decoration: none; font-weight: bold; border: 1px solid #2AABEE; padding: 8px 12px; border-radius: 4px; transition: all 0.3s;">
+                Посмотреть код на GitHub →
+            </a>
+        </div>
 
-            <!-- Карточка 2: Бот -->
-            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; flex: 1; min-width: 250px;">
-                <h3>Бот для Telegram на Python</h3>
-                <p>Простой бот, который отвечает на команды и работает с API погоды.</p>
-                <!-- ИСПРАВЛЕНО: Ссылка теперь тоже ведет в Telegram, чтобы не было битой ссылки # -->
-                <a href="https://t.me/pufferfush19" target="_blank" style="color: #007bff; text-decoration: underline;">Показать код в переписке →</a>
-            </div>
+        <!-- Карточка 2: Бот -->
+        <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; flex: 1; min-width: 250px;">
+            <h3>Бот для Telegram на Python</h3>
+            <p>Простой бот, который отвечает на команды и работает с API погоды.</p>
+            <a href="https://t.me/pufferfush19" target="_blank" style="color: #007bff; text-decoration: underline;">Показать код в переписке →</a>
+        </div>
+
+    </div>
+</section>
 
         </div> <!-- Закрывающий тег для flex-контейнера -->
     </section>
