@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Моя Визитка</title>
+    
+    <!-- Мета-теги для соцсетей (опционально, но полезно) -->
+    <meta property="og:title" content="Макс | Программист-самоучка">
+    <meta property="og:description" content="Изучаю C++ и Python, играю на гитаре.">
+    <meta property="og:image" content="https://maksimko-00.github.io/Maksimkos.github.io/photo.jpg">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="photo.jpg" alt="Моё фото">
+        <!-- ГЛАВНОЕ ИЗМЕНЕНИЕ: добавлен class="avatar" -->
+        <img src="photo.jpg" alt="Моё фото" class="avatar">
+        
         <h1>Привет! Я Макс!</h1>
-        <p>програмист самоучка/ школьник</p>
+        <p>Программист-самоучка / школьник</p>
     </header>
 
     <section>
         <h2>Обо мне</h2>
-        <p>Изучаю с++ и python самостоятельно, играю на гитаре.</p>
+        <p>Изучаю C++ и Python самостоятельно, играю на гитаре.</p>
     </section>
 
     <section>
         <h2>Контакты</h2>
         <ul>
             <li>Email: maksimpirulin94@gmail.com</li>
-            <li>Telegram: @pufferfush19</li>
+            <li>Telegram: <a href="https://t.me/pufferfush19" target="_blank">@pufferfush19</a></li>
             <li>Телефон: +7 (901) 735-40-24</li>
         </ul>
     </section>
 </body>
 </html>
+
