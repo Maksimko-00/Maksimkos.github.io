@@ -7,12 +7,14 @@ body {
     text-align: center;
 }
 header {
-    border-radius: 50%; border: 3px solid #fff;
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 30px;
+    width: 150px;              /* Размер фото (можно менять) */
+    height: 150px;             /* Чтобы было квадратным */
+    object-fit: cover;         /* Чтобы фото не сплющивалось, а аккуратно вписывалось в квадрат */
+    border-radius: 50%;        /* Делает фото круглым (50% от размера) */
+    border: 4px solid #ffffff; /* Белая рамка толщиной 4px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Лёгкая тень для объёма */
+    display: block;            /* Убирает лишние отступы снизу */
+    margin: 0 auto 20px auto;
     <meta property="og:title" content="Максим | Разработчик">
     <meta property="og:description" content="Делаю сайты, люблю C++ и GitHub">
     <meta property="og:image" content="https://maksimko-00.github.io/Maksimkos.github.io/photo.jpg">
