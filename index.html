@@ -29,22 +29,27 @@
     <!-- БЛОК ПРОЕКТОВ -->
     <section>
         <h2>Мои проекты</h2>
-        <p>Здесь я выкладываю свои учебные и пет-проекты. Код всех проектов открыт на GitHub.</p>
+        <p>Здесь я выкладываю свои учебные и пет-проекты. Код готов показать по запросу.</p>
         
+        <!-- ГЛАВНОЕ ИСПРАВЛЕНИЕ: Добавлен этот div с flex -->
         <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; min-width: 200px; flex: 1; min-width: 250px;">
+            
+            <!-- Карточка 1: Калькулятор -->
+            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; flex: 1; min-width: 250px;">
                 <h3>Калькулятор на C++</h3>
-                <p>Консольное приложение с обработкой ошибок ввода и поддержкой дробных чисел.</p>
-                <!-- ЗАМЕНИ # НА ССЫЛКУ НА СВОЙ РЕПОЗИТОРИЙ -->
-                <a href="#" style="color: #007bff; text-decoration: underline;">Посмотреть код на GitHub →</a>
+                <p>Консольное приложение с обработкой ошибок ввода. Код пока не выложен в публичный доступ, но готов показать по запросу.</p>
+                <a href="https://t.me/pufferfush19" target="_blank" style="color: #007bff; text-decoration: underline;">Показать код в переписке →</a>
             </div>
-            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; min-width: 200px; flex: 1; min-width: 250px;">
+
+            <!-- Карточка 2: Бот -->
+            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; flex: 1; min-width: 250px;">
                 <h3>Бот для Telegram на Python</h3>
                 <p>Простой бот, который отвечает на команды и работает с API погоды.</p>
-                <!-- ЗАМЕНИ # НА ССЫЛКУ НА СВОЙ РЕПОЗИТОРИЙ -->
-                <a href="#" style="color: #007bff; text-decoration: underline;">Посмотреть код на GitHub →</a>
+                <!-- ИСПРАВЛЕНО: Ссылка теперь тоже ведет в Telegram, чтобы не было битой ссылки # -->
+                <a href="https://t.me/pufferfush19" target="_blank" style="color: #007bff; text-decoration: underline;">Показать код в переписке →</a>
             </div>
-        </div>
+
+        </div> <!-- Закрывающий тег для flex-контейнера -->
     </section>
 
     <!-- БЛОК ОБО МНЕ -->
