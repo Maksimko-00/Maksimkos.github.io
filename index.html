@@ -25,29 +25,33 @@
         <p>Программист-самоучка / школьник</p>
     </header>
 
-    <!-- БЛОК ПРОЕКТОВ -->
     <section>
-        <h2>Мои проекты</h2>
-        <p>Здесь я выкладываю свои учебные и пет-проекты. Код готов показать по запросу.</p>
+    <h2>Мои проекты</h2>
+    <p>Здесь я выкладываю свои учебные и пет-проекты. Код готов показать по запросу.</p>
+    
+    <!-- Контейнер с классом, который ты добавил в CSS -->
+    <div class="projects-container">
         
-        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-            
-            <!-- Карточка 1: Калькулятор -->
-            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; flex: 1; min-width: 250px;">
-                <h3>Калькулятор на C++</h3>
-                <p>Консольное приложение с обработкой ошибок ввода.</p>
-                <a href="https://maksimko-00.github.io/calculator-cpp/" target="_blank" rel="noopener noreferrer" style="color: #2AABEE; text-decoration: none; font-weight: bold; border: 1px solid #2AABEE; padding: 8px 12px; border-radius: 4px; transition: all 0.3s;">
-                    Посмотреть код на GitHub →
-                </a>
-            </div>
-            
-            <div class="project-card">
-                <h3>Игра "угадай число" на С++</h3>
-                <p>класическая консольная игра.</p>
-                <a href="https://maksimko-00.github.io/guess_number_game.github.io/" target="_blank" rel="noopener noreferrer" class="btn-github">
-                    Посмотреть код на GitHub →
-                </a>
-            </div>
+        <!-- Карточка 1: Калькулятор -->
+        <div class="project-card">
+            <h3>Калькулятор на C++</h3>
+            <p>Консольное приложение с обработкой ошибок ввода и проверкой деления на ноль.</p>
+            <a href="ССЫЛКА_НА_КАЛЬКУЛЯТОР" target="_blank" rel="noopener noreferrer" class="btn-github">
+                Посмотреть код на GitHub →
+            </a>
+        </div>
+
+        <!-- Карточка 2: Игра "Угалай число" -->
+        <div class="project-card">
+            <h3>Игра "угадай число" на С++</h3>
+            <p>Классическая игра "угадай число", с генирацией случайной цифры.</p>
+            <a href="https://maksimko-00.github.io/guess_number_game.github.io/" target="_blank" rel="noopener noreferrer" class="btn-github">
+                Посмотреть код на GitHub →
+            </a>
+        </div>
+
+    </div> 
+</section>
 
         </div> <!-- Закрывающий тег для flex-контейнера -->
     </section>
