@@ -47,3 +47,54 @@ ul {
 li { 
     margin: 10px 0; 
 }
+/* Контейнер для карточек: делает их в ряд с отступами */
+.projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Сама карточка проекта: это главный класс, который сделает их одинаковыми */
+.project-card {
+    border: 1px solid #ddd;          /* Тонкая серая рамка */
+    padding: 20px;                    /* Внутренние отступы (одинаковые для всех) */
+    border-radius: 8px;               /* Скругление углов */
+    flex: 1;                          /* Растягиваются, чтобы занимать место */
+    min-width: 240px;                 /* Минимальная ширина, чтобы не сплющивались */
+    background-color: #fff;           /* Белый фон карточки */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Легкая тень */
+    text-align: left;                 /* Текст внутри выравниваем по левому краю */
+}
+
+/* Кнопка внутри карточки */
+.btn-github {
+    display: inline-block;
+    color: #2AABEE;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #2AABEE;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+/* Эффект при наведении на кнопку */
+.btn-github:hover {
+    background-color: #2AABEE;
+    color: white;
+}
+
+/* Заголовки внутри карточки тоже нужно немного причесать, 
+   чтобы они не конфликтовали с общим text-align: center у body */
+.project-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.project-card p {
+    color: #555;
+    line-height: 1.5;
+}
